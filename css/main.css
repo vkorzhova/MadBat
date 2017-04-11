@@ -11,6 +11,7 @@ html {
     text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px;
     color: #ffcc33;
     font-size: 30px;
+    background-color: #333;
 }
 
 header {
@@ -36,7 +37,7 @@ header {
 main {
     width: 100%;
     background-color: #333;
-    min-height: 700px;
+    height: 1200px;
 }
 
 section {
@@ -71,7 +72,7 @@ section {
     width: 400px;
 }
 
-.how-to-play_ul{
+.how-to-play_ul {
     margin-top: 60px;
     display: table;
 }
@@ -82,11 +83,37 @@ section {
     text-align: center;
     font-size: 25px;
     margin-right: 20px;
-    
 }
 
 .how-to-play_ul img {
     border-radius: 50%;
     margin-top: 20px;
-    
+}
+
+.keyboard-control {
+    display: table;
+    margin-top: 50px;
+    font-size: 0;
+}
+
+.control {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.keyboard-control li {
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.keyboard-control img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 180px;
+    margin-bottom: 20px;
 }
