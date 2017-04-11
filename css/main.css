@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'LEGO BRIX';
+    src: url(../fonts/legoBrix.ttf);
+}
+
+html {
+    zoom: 90%;
+    font-family: 'LEGO BRIX';
+    line-height: inherit;
+    font-weight: bold;
+    text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px;
+    color: #ffcc33;
+    font-size: 30px;
+}
+
+header {
+    background-image: url('../img/6.jpg');
+    height: 600px;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.header-img {
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.header-img:hover {
+    width: 290px;
+    height: 140px;
+}
+
+main {
+    width: 100%;
+    background-color: #333;
+    min-height: 700px;
+}
+
+section {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-img {
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: -330px;
+    left: 0px;
+}
+
+.main-text {
+    position: absolute;
+    top: -240px;
+    left: 700px;
+    text-align: justify;
+}
+
+.how-to-play {
+    padding-top: 170px;
+    font-size: 0;
+}
+
+.how-to-play_img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.how-to-play_ul{
+    margin-top: 60px;
+    display: table;
+}
+
+.how-to-play_ul li {
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 20px;
+    
+}
+
+.how-to-play_ul img {
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
